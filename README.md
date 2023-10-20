@@ -1,6 +1,6 @@
 App url: https://myjobssearchapp.ccbp.tech
 
-login username: rahul
+login username: rahul     
 password: rahul@2021
 
 Description:
