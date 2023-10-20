@@ -1,0 +1,273 @@
+.retry {
+  background-color: #4f46e5;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  width: 60px;
+  height: 30px;
+  cursor: pointer;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+@media screen and (min-width: 769px) {
+  .background-container {
+    height: 100vh;
+    overflow-y: scroll;
+  }
+
+  .main-container {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    height: 100vh;
+    padding: 10px;
+  }
+  .profile-side {
+    background-color: ;
+    width: 25vw;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .jobs-result-side {
+    height: 600px;
+    overflow-y: scroll;
+  }
+  .results-side {
+    background-color: ;
+    width: 75vw;
+  }
+
+  .search-div {
+    position: relative;
+    width: 329px;
+  }
+
+  .search-div-small {
+    position: relative;
+    width: 329px;
+    display: none;
+  }
+  .input-class {
+    width: 300px;
+    height: 35px;
+    background-color: transparent;
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #b6c5ff;
+    color: white;
+  }
+  .btn-class {
+    height: 30px;
+    background-color: #202020;
+    position: absolute;
+    bottom: 17px;
+    right: 10px;
+    border: none;
+    width: 35px;
+    cursor: pointer;
+  }
+  .icon {
+    height: 12px;
+    color: white;
+  }
+
+  .profile-div {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+    height: 200px;
+    width: 230px;
+    border-radius: 15px;
+    background-size: cover;
+    margin: 15px;
+  }
+
+  .profile-pic {
+    height: 50px;
+    margin-left: 15px;
+    margin-top: 15px;
+  }
+
+  .name-user {
+    color: #4f46e5;
+    margin-left: 15px;
+    margin-top: 15px;
+  }
+  .bio {
+    color: #272727;
+    margin-left: 15px;
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: bold;
+    width: 150px;
+  }
+  .filters-div {
+    width: 230px;
+    background-color: ;
+    height: 70vh;
+    padding: 10px;
+  }
+  .head {
+    color: white;
+    font-family: roboto;
+    font-size: ;
+  }
+  .unorder {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+  }
+  ul {
+    padding: 0px;
+  }
+  .center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .resultsSt {
+    font-style: italic;
+    margin-right: 45px;
+  }
+  .disp-flex-resultcount {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 450px;
+  }
+  h1 {
+    color: white;
+  }
+  .loader-center {
+    height: 50vh;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .background-container {
+    height: 100vh;
+    overflow-y: scroll;
+  }
+
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    height: 100vh;
+    padding: 10px;
+    overflow-y: scroll;
+  }
+  .profile-side {
+    background-color: ;
+    width: 100vw;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .results-side {
+    background-color: ;
+    width: 75vw;
+  }
+
+  .search-div-small {
+    position: relative;
+    width: 329px;
+  }
+  .search-div {
+    position: relative;
+    width: 329px;
+    display: none;
+  }
+  .input-class {
+    width: 300px;
+    height: 30px;
+    background-color: transparent;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #b6c5ff;
+    color: white;
+  }
+  .btn-class {
+    height: 25px;
+    background-color: #202020;
+    position: absolute;
+    bottom: 17px;
+    right: 15px;
+    border: none;
+    width: 35px;
+    cursor: pointer;
+  }
+  .icon {
+    height: 12px;
+    color: white;
+  }
+
+  .profile-div {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+    height: 120px;
+    width: 350px;
+    border-radius: 10px;
+    background-size: cover;
+    margin: 15px;
+  }
+
+  .profile-pic {
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 15px;
+  }
+
+  .name-user {
+    color: #4f46e5;
+    margin-left: 10px;
+    margin-top: 5px;
+    font-size: 16px;
+  }
+  .bio {
+    color: #272727;
+    margin-left: 10px;
+    margin-top: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    width: 350px;
+  }
+  .filters-div {
+    width: 350px;
+    background-color: ;
+    height: 52vh;
+    padding: 10px;
+  }
+  .head {
+    color: white;
+    font-family: roboto;
+    font-size: 17px;
+  }
+  .unorder {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+  }
+  ul {
+    padding: 0px;
+  }
+
+  .jobs-result-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+  }
+}

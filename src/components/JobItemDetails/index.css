@@ -1,0 +1,192 @@
+.backgorund-fixed {
+  background: fixed;
+  overflow-y: scroll;
+  height: 100vh;
+  color: #000000;
+}
+
+.visit-space-bw {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+  .back {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-top: 20px;
+    overflow-y: scroll;
+  }
+  .cont {
+    width: 85vw;
+    height: auto;
+  }
+
+  .skill-p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+
+  .skills-cont {
+    width: 350px;
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 15px;
+  }
+  .skill-items-div {
+    width: 40vw;
+    height: 40px;
+    display: flex;
+  }
+
+  .skill-img {
+    height: 25px;
+    margin-right: 5px;
+  }
+
+  .life-p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+
+  .life-img {
+    width: 100%;
+    margin-top: 10px;
+    height: 190px;
+  }
+
+  .heading-div-s {
+    width: 85vw;
+  }
+
+  .similar-heading {
+    color: white;
+    font-size: 20px;
+    margin-top: 5px;
+    margin: 10px;
+    align-self: flex-start;
+  }
+
+  .similar-items-cont {
+    width: 85vw;
+    background-color: #202020;
+    margin-top: 15px;
+    border-radius: 10px;
+    height: auto;
+    padding: 10px;
+  }
+  p {
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .back {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000000;
+    padding-top: 20px;
+    overflow-y: scroll;
+    background: fixed;
+  }
+  .cont {
+    width: 85vw;
+    height: auto;
+  }
+  .md-head {
+    font-size: 24px;
+  }
+  .dis-flex-similar {
+    display: flex;
+    flex-direction: row;
+    height: 35vh;
+    width: 100vh;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+  }
+
+  .skill-p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 24px;
+  }
+
+  .skills-cont {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 15px;
+  }
+  .skill-items-div {
+    width: 25%;
+    height: 40px;
+    display: flex;
+  }
+
+  .skill-img {
+    height: 45px;
+    margin-right: 5px;
+  }
+
+  .dis-flex-md {
+    display: flex;
+  }
+  .width-md-life {
+    width: 60%;
+  }
+  .width-md-life-img {
+    width: 30%;
+    margin-left: 10%;
+  }
+
+  .life-p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 24px;
+  }
+
+  .life-img {
+    width: 100%;
+    margin-top: 10px;
+    height: 190px;
+  }
+
+  .heading-div-s {
+    width: 85vw;
+  }
+
+  .similar-heading {
+    color: white;
+    font-size: 20px;
+    margin-top: 5px;
+    margin: 10px;
+    align-self: flex-start;
+  }
+
+  .similar-items-cont {
+    width: 20vw;
+    background-color: #202020;
+    margin-top: 15px;
+    border-radius: 10px;
+    height: auto;
+    padding: 10px;
+    margin: 10px;
+  }
+  p {
+    margin-bottom: 10px;
+    font-size: 15px;
+  }
+}

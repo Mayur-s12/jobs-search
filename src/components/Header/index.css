@@ -1,0 +1,167 @@
+.header-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #202020;
+  height: 65px;
+  padding-left: 35px;
+  padding-right: 45px;
+  position: relative;
+}
+
+.logo-size {
+  height: 35px;
+}
+
+.logo-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+}
+
+.header-navigations {
+  display: flex;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: roboto;
+  width: 150px;
+  position: absolute;
+  left: 45%;
+}
+
+.head-el {
+  margin-left: 20px;
+}
+
+.btn-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-el {
+  background-color: #4f46e5;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  height: 35px;
+  width: 60px;
+  cursor: pointer;
+}
+
+.link-home {
+  color: white;
+  text-decoration: none;
+}
+
+.button-el:active {
+  transform: translateY(2px);
+}
+
+.logout-div {
+  display: none;
+}
+
+.icons-div {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .header-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #202020;
+    height: 50px;
+    padding-left: 10px;
+    padding-right: 25px;
+    position: relative;
+  }
+
+  .logo-size {
+    height: 25px;
+  }
+
+  .logo-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+  }
+
+  .header-navigations {
+    display: flex;
+    display: none;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: roboto;
+    width: 150px;
+    position: absolute;
+    left: 35%;
+    font-size: 14px;
+  }
+
+  .icons-div {
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .head-el {
+    margin-left: 20px;
+  }
+
+  .home {
+    color: white;
+    font-size: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+
+  .jobs {
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  .logout {
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  .logout:active {
+    transform: translatex(4px);
+  }
+
+  .logout-div {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .btn-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+  }
+
+  .button-el {
+    background-color: #4f46e5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 25px;
+    width: 50px;
+    cursor: pointer;
+    font-size: 12px;
+  }
+}

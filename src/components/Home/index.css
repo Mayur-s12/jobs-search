@@ -1,0 +1,77 @@
+@media screen and (min-width: 769px) {
+  .home-header {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/home-lg-bg.png');
+    height: 100vh;
+    background-size: cover;
+  }
+
+  .head-div {
+    width: 500px;
+  }
+
+  .para-div {
+    width: 700px;
+  }
+  .home-heading {
+    color: white;
+    font-family: roboto;
+    margin: 55px;
+    font-size: 45px;
+  }
+
+  .paragraph-home {
+    color: #f8fafc;
+    font-size: 18px;
+    font-weight: 450;
+    margin: 55px;
+  }
+
+  .find-button {
+    background-color: #6366f1;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    height: 35px;
+    width: 100px;
+    margin: 55px;
+    cursor: pointer;
+  }
+
+  .find-button:active {
+    transform: translateY(2px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .home-header {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/home-sm-bg.png');
+    height: 100vh;
+    background-size: cover;
+  }
+  .home-heading {
+    color: white;
+    font-family: roboto;
+    margin: 35px;
+  }
+
+  .paragraph-home {
+    color: #f8fafc;
+    font-size: 18px;
+    font-weight: 450;
+    margin: 35px;
+  }
+
+  .find-button {
+    background-color: #6366f1;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    height: 25px;
+    margin: 35px;
+    cursor: pointer;
+  }
+
+  .find-button:active {
+    transform: translateY(2px);
+  }
+}

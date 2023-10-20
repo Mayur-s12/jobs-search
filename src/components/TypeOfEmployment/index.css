@@ -1,0 +1,7 @@
+.list {
+  list-style-type: none;
+  align-self: flex-start;
+  margin: 5px;
+  color: white;
+  font-size: 15px;
+}
